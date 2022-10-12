@@ -62,5 +62,4 @@ build/
 hs_err_pid*
 replay_pid*
 
-# javadoc
-docs/
+src/test
