@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"hxasjc.utilstuff.data","l":"HashMapCounter"},{"p":"hxasjc.utilstuff.data","l":"NumberConverter"}];updateSearchResults();
