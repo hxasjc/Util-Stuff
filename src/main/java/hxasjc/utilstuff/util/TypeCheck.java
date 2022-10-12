@@ -116,6 +116,14 @@ public class TypeCheck {
      * Enum representing the type of the variable passed into the type check
      */
     public enum Type {
-        OBJECT, PRIMITIVE
+        /**
+         * Represents an Object variable
+         */
+        OBJECT,
+
+        /**
+         * Represents a Primitive variable
+         */
+        PRIMITIVE;
     }
 }

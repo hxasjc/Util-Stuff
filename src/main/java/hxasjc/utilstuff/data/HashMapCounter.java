@@ -92,6 +92,13 @@ public class HashMapCounter<K> {
     }
 
     /**
+     * Clears the map
+     */
+    public void clear() {
+        map.clear();
+    }
+
+    /**
      * Returns a String representation of the map
      * @return The map as a String
      * @see Object#toString()

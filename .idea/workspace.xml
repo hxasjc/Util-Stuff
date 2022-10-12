@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f5ce153-bfd3-43c1-96a1-655d45c69c4f" name="Changes" comment="javadoc">
+    <list default="true" id="3f5ce153-bfd3-43c1-96a1-655d45c69c4f" name="Changes" comment="update javadoc on HashMapCounter and add TypeCheck">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/data/HashMapCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/data/HashMapCounter.java" afterDir="false" />
     </list>
@@ -19,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -41,12 +42,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "C:/Users/kvw89/IdeaProjects/Util Stuff/src/main/java/hxasjc/utilstuff/data",
+    "last_opened_file_path": "C:/Users/kvw89/IdeaProjects/Util Stuff/src/main/java/hxasjc/utilstuff/data",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kvw89\IdeaProjects\Util Stuff\src\main\java\hxasjc\utilstuff\data" />
+      <recent name="C:\Users\kvw89\IdeaProjects\Util Stuff\target\classes\hxasjc\utilstuff\data" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="hxasjc.utilstuff.data" />
     </key>
@@ -113,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665605011676</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update javadoc on HashMapCounter and add TypeCheck">
+      <created>1665606848895</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665606848895</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +144,7 @@
     <MESSAGE value="gitignore" />
     <MESSAGE value="2 classes" />
     <MESSAGE value="javadoc" />
-    <option name="LAST_COMMIT_MESSAGE" value="javadoc" />
+    <MESSAGE value="update javadoc on HashMapCounter and add TypeCheck" />
+    <option name="LAST_COMMIT_MESSAGE" value="update javadoc on HashMapCounter and add TypeCheck" />
   </component>
 </project>
