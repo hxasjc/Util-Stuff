@@ -2,6 +2,10 @@ package hxasjc.utilstuff.data;
 
 import java.util.HashMap;
 
+/**
+ * HashMap wrapper used for counting items.
+ * @param <K>
+ */
 public class HashMapCounter<K> {
     /**
      * internal map

@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"hxasjc.utilstuff.data"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"hxasjc.utilstuff.data"},{"l":"hxasjc.utilstuff.util"}];updateSearchResults();
