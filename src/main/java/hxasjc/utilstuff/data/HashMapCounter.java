@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 /**
  * HashMap wrapper used for counting items.
- * @param <K>
+ * @param <K> Key type
  */
 public class HashMapCounter<K> {
     /**
