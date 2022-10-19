@@ -12,19 +12,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f5ce153-bfd3-43c1-96a1-655d45c69c4f" name="Changes" comment="add HashMapArrayList; add HashMapCounter.clear; updated javadoc on Type.OBJECT">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Util_Stuff_jar.xml" afterDir="false" />
+    <list default="true" id="3f5ce153-bfd3-43c1-96a1-655d45c69c4f" name="Changes" comment="add Concat, Optional, CharacterMatcher, EnumUtils, GeneralUtility, ListUtils, NumberUtils, StringUtils; touch up javadoc in HashMapCounter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/allclasses-index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/allpackages-index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/deprecated-list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/docs/element-list" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/Concat.ConcatBuilder.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/Concat.ConcatBuilder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/Concat.NullBehaviour.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/Concat.NullBehaviour.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/Concat.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/Concat.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/HashMapArrayList.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/HashMapArrayList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/HashMapCounter.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/HashMapCounter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/NumberConverter.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/NumberConverter.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/internal/Optional.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/internal/Optional.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/internal/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/internal/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/internal/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/internal/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/CharacterMatcher.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/CharacterMatcher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/EnumUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/EnumUtils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/GeneralUtility.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/GeneralUtility.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/ListUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/ListUtils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/NumberUtils.NumberUtilsException.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/NumberUtils.NumberUtilsException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/NumberUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/NumberUtils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/StringUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/StringUtils.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/TypeCheck.Type.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/TypeCheck.Type.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/TypeCheck.TypeCheckResult.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/TypeCheck.TypeCheckResult.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/TypeCheck.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/TypeCheck.html" afterDir="false" />
@@ -42,6 +53,7 @@
       <change beforePath="$PROJECT_DIR$/docs/index-files/index-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-18.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index-files/index-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-19.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-20.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-20.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-5.html" afterDir="false" />
@@ -54,10 +66,14 @@
       <change beforePath="$PROJECT_DIR$/docs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/overview-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/overview-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/package-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/serialized-form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/tag-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tag-search-index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/type-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/data/HashMapCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/data/HashMapCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/data/NumberConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/data/Concat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/data/Concat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/util/GeneralUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/util/GeneralUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/util/ListUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/util/ListUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/util/NumberUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/util/NumberUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/util/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/util/StringUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +85,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -92,8 +109,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/kvw89/IdeaProjects/Util Stuff/src/main/java/hxasjc/utilstuff/data&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kvw89/IdeaProjects/Util Stuff/src/main/java/hxasjc/utilstuff/data&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kvw89/IdeaProjects/Util Stuff/lib/reflections-0.10.2.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
@@ -110,16 +127,16 @@
       <recent name="hxasjc.utilstuff.util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TypeCheckTest">
-    <configuration name="HashMapCounterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashMapCounterTest" />
+  <component name="RunManager" selected="Application.AnsiTest">
+    <configuration name="AnsiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnsiTest" />
       <module name="Util Stuff" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberConverterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberConverterTest" />
+    <configuration name="DateTimeUtilsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DateTimeUtilsTest" />
       <module name="Util Stuff" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TypeCheckTest" />
+        <item itemvalue="Application.AnsiTest" />
         <item itemvalue="Application.StringUtilsTest" />
+        <item itemvalue="Application.DateTimeUtilsTest" />
+        <item itemvalue="Application.TypeCheckTest" />
         <item itemvalue="Application.NumberUtilsTest" />
-        <item itemvalue="Application.HashMapCounterTest" />
-        <item itemvalue="Application.NumberConverterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665610858653</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add Concat, Optional, CharacterMatcher, EnumUtils, GeneralUtility, ListUtils, NumberUtils, StringUtils; touch up javadoc in HashMapCounter">
+      <created>1665715188076</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665715188076</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +251,7 @@
     <MESSAGE value="javadoc" />
     <MESSAGE value="update javadoc on HashMapCounter and add TypeCheck" />
     <MESSAGE value="add HashMapArrayList; add HashMapCounter.clear; updated javadoc on Type.OBJECT" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HashMapArrayList; add HashMapCounter.clear; updated javadoc on Type.OBJECT" />
+    <MESSAGE value="add Concat, Optional, CharacterMatcher, EnumUtils, GeneralUtility, ListUtils, NumberUtils, StringUtils; touch up javadoc in HashMapCounter" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Concat, Optional, CharacterMatcher, EnumUtils, GeneralUtility, ListUtils, NumberUtils, StringUtils; touch up javadoc in HashMapCounter" />
   </component>
 </project>

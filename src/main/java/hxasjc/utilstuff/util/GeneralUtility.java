@@ -23,10 +23,28 @@ public class GeneralUtility {
     }
 
     /**
+     * Prints the given objects using {@code System.out.print()} and the given Concat object.
+     * @param concat Concat object to concatenate with
+     * @param objects Any number of objects to print
+     */
+    public static void print(Concat concat, Object... objects) {
+        System.out.println(concat.concat(objects));
+    }
+
+    /**
      * Prints the given objects using {@code System.out.println()}.
      * @param objects Any number of objects to print
      */
     public static void println(Object... objects) {
         System.out.println(PRINT_CONCAT.concat(objects));
+    }
+
+    /**
+     * Prints the given objects using {@code System.out.println()} and the given Concat object.
+     * @param concat Concat object to concatenate with
+     * @param objects Any number of objects to print
+     */
+    public static void println(Concat concat, Object... objects) {
+        System.out.println(concat.concat(objects));
     }
 }

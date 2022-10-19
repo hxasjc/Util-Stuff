@@ -1,5 +1,7 @@
 package hxasjc.utilstuff.util;
 
+import java.text.DecimalFormat;
+
 /**
  * Provides a number of helper methods for working with numbers. Most of the methods in this class will accept any class that extends the {@link Number} class.
  * <br/>
@@ -7,6 +9,11 @@ package hxasjc.utilstuff.util;
  * @see Number
  */
 public class NumberUtils {
+    /**
+     * Format for formatting prices
+     */
+    public static final DecimalFormat MONEY_FORMAT = new DecimalFormat("$#0.00");
+
     /**
      * Wraps the given number around the given range. This method uses integers to calculate the result.
      * @param numObj The number that you want to wrap

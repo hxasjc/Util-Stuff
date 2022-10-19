@@ -11,6 +11,11 @@ import java.util.List;
  */
 public class Concat {
     /**
+     * Pre-created Concat with no separator that skips nulls
+     */
+    public static final Concat NO_SEPARATOR = new ConcatBuilder().separator("").skipNulls().build();
+
+    /**
      * String to separate objects with
      */
     private final String separator;
@@ -120,9 +125,21 @@ public class Concat {
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < objects.size(); i++) {
             Object obj = objects.get(i);
-            stringBuilder.append(obj);
-            if (i < (objects.size() - 1)) {
-                stringBuilder.append(separator);
+            boolean ignoreObj = false;
+            if (obj == null) {
+                switch (nullBehaviour) {
+                    case SKIP -> ignoreObj = true;
+                    case REPLACE -> obj = nullReplaceText;
+                }
+            }
+            if (!ignoreObj) {
+                stringBuilder.append(obj);
+                //TODO: dont append separator if string is an escape sequence
+                if (obj.toString().startsWith("\\") && obj.toString().contains(" ")) {
+                    if (i < (objects.size() - 1)) {
+                        stringBuilder.append(separator);
+                    }
+                }
             }
         }
         return stringBuilder.toString();
