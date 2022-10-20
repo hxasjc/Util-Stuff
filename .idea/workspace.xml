@@ -12,68 +12,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f5ce153-bfd3-43c1-96a1-655d45c69c4f" name="Changes" comment="add Concat, Optional, CharacterMatcher, EnumUtils, GeneralUtility, ListUtils, NumberUtils, StringUtils; touch up javadoc in HashMapCounter">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/allpackages-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/deprecated-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/docs/element-list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/Concat.ConcatBuilder.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/Concat.ConcatBuilder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/Concat.NullBehaviour.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/Concat.NullBehaviour.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/Concat.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/Concat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/HashMapArrayList.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/HashMapArrayList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/HashMapCounter.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/HashMapCounter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/data/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/internal/Optional.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/internal/Optional.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/internal/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/internal/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/internal/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/internal/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/CharacterMatcher.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/CharacterMatcher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/EnumUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/EnumUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/GeneralUtility.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/GeneralUtility.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/ListUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/ListUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/NumberUtils.NumberUtilsException.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/NumberUtils.NumberUtilsException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/NumberUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/NumberUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/StringUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/StringUtils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/TypeCheck.Type.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/TypeCheck.Type.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/TypeCheck.TypeCheckResult.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/TypeCheck.TypeCheckResult.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/TypeCheck.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/TypeCheck.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/hxasjc/utilstuff/util/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-20.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-20.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/member-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/package-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/serialized-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/tag-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tag-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/type-search-index.js" afterDir="false" />
+    <list default="true" id="3f5ce153-bfd3-43c1-96a1-655d45c69c4f" name="Changes" comment="added a bunch of stuff, changed some more">
       <change beforePath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/data/Concat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/data/Concat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/util/GeneralUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/util/GeneralUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/util/ListUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/util/ListUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/util/NumberUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/util/NumberUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/util/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hxasjc/utilstuff/util/StringUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665715188076</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added a bunch of stuff, changed some more">
+      <created>1666217539121</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666217539121</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,6 +199,7 @@
     <MESSAGE value="update javadoc on HashMapCounter and add TypeCheck" />
     <MESSAGE value="add HashMapArrayList; add HashMapCounter.clear; updated javadoc on Type.OBJECT" />
     <MESSAGE value="add Concat, Optional, CharacterMatcher, EnumUtils, GeneralUtility, ListUtils, NumberUtils, StringUtils; touch up javadoc in HashMapCounter" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Concat, Optional, CharacterMatcher, EnumUtils, GeneralUtility, ListUtils, NumberUtils, StringUtils; touch up javadoc in HashMapCounter" />
+    <MESSAGE value="added a bunch of stuff, changed some more" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a bunch of stuff, changed some more" />
   </component>
 </project>

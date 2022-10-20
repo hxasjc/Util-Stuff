@@ -16,6 +16,11 @@ public class Concat {
     public static final Concat NO_SEPARATOR = new ConcatBuilder().separator("").skipNulls().build();
 
     /**
+     * Pre-created Concat with a basic [, ] separator that skips nulls
+     */
+    public static final Concat LIST_CONCAT = new ConcatBuilder().separator(", ").skipNulls().build();
+
+    /**
      * String to separate objects with
      */
     private final String separator;
@@ -135,7 +140,7 @@ public class Concat {
             if (!ignoreObj) {
                 stringBuilder.append(obj);
                 //TODO: dont append separator if string is an escape sequence
-                if (obj.toString().startsWith("\\") && obj.toString().contains(" ")) {
+                if (!(obj.toString().startsWith("\\") && obj.toString().contains(" "))) {
                     if (i < (objects.size() - 1)) {
                         stringBuilder.append(separator);
                     }
